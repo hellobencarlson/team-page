@@ -45,7 +45,7 @@ publish on github
 
 ## Overview
 
-Screen Shot 2021-07-05 at 3.32.48 PM<img width="372" alt="Screen Shot 2021-07-05 at 3 32 48 PM" src="https://user-images.githubusercontent.com/24322300/124512520-92ac3100-dda6-11eb-98f9-903005f51448.png">
+<img width="372" alt="Screen Shot 2021-07-05 at 3 32 48 PM" src="https://user-images.githubusercontent.com/24322300/124512520-92ac3100-dda6-11eb-98f9-903005f51448.png">
 
 
 Great refresher on flexbox and grid- tried grid first, then ended up using flexbox 
