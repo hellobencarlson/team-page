@@ -9,9 +9,7 @@ img {
     display: inline-block;
 }
 
-.offset {
-    height: 100px;
-}
+
 
 .vertical {
     writing-mode: vertical-rl;
@@ -29,19 +27,32 @@ h1 {
 }
 
 figure {
-    width: 120px;
+    width: 40%;
     margin: 0 auto;
 }
 
 footer {
+    margin-top: 20px;
     color: gray;
     text-align: center;
 }
 
+.offset-2 {
+    height: 50px;
+}
+
 @media (min-width:768px) {
     figure {
-        width: 300px;
+        width: 30%;
         margin: 0 auto;
+    }
+
+    .offset {
+        height: 100px;
+    }
+
+    .offset-2 {
+        height: 0px;
     }
     
 }
