@@ -9,21 +9,22 @@ img {
     display: inline-block;
 }
 
-
-
 .vertical {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     display: inline-block;
     position: absolute;
+    font-size: 12px;
+    font-family: 'PT Serif', serif;
 }
 
-.secondary-header {
+.secondary-header, figcaption {
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     font-family: 'PT Serif', serif;
+    width: 100%;
 }
 
 figure {
@@ -54,5 +55,15 @@ footer {
     .offset-2 {
         height: 0px;
     }
-    
+
+    h1, .secondary-header {
+        width: 45%;
+        display: inline-block;
+        position: relative;
+        top: 0px;
+    }
+    h1 {
+        position: relative;
+        top: -100px;
+    }  
 }
